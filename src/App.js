@@ -52,7 +52,7 @@ function App() {
         <NewTask onAddTask={addTaskHandler} />
       </section>
       <section>
-        <button onClick={fetchTasks}>GET Tasks</button>
+        <button onClick={fetchTasks}>Fetch Tasks</button>
         <TaskList tasks={tasks} />
       </section>
     </div>
